@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./code/*.html"],
+  content: ["./anufied-pavan/**/*.{html,js}",
+   './index.html',],
   theme: {
     extend: {},
   },
